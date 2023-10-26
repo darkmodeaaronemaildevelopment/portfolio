@@ -1,0 +1,66 @@
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.git-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12.5px;
+}
+
+.git-img-wrapper img {
+    height: 100%;
+}
+
+.mode-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12.5px;
+}
+
+.mode-img-wrapper img {
+    height: 100%;
+    cursor: pointer;
+}
+
+@media (max-width: 815px) {
+    .contact {
+        position: fixed;
+        bottom: 25px;
+        z-index: 1;
+        background-color: #7C8BDC;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 3px 10px;
+        color: white;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+    .git-img-wrapper {
+        height: 20px;
+        padding-bottom: 4px;
+    }
+    .mode-img-wrapper {
+        height: 20px;
+        padding-bottom: 4px;
+    }
+}
+
+@media (max-width: 460px) {
+
+    nav {
+        gap: 20px;
+    }
+
+}
+
