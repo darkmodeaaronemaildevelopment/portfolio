@@ -65,33 +65,4 @@ const mobileDetailsContainer = document.querySelector('.mobileDetails-container'
 
 
 
-mobileCard.addEventListener('click', () => {
 
-    mobileDetailsContainer.classList.toggle('active')
-
-    if (document.body.style.overflow == 'hidden') {
-        document.body.style.overflow = 'scroll'
-    } else {
-        document.body.style.overflow = 'hidden'
-    }
-
-})
-
-
-const mobileCard2 = document.querySelector('.mobileCard2')
-const mobileDetailsContainer2 = document.querySelector('.mobileDetails-container2')
-
-
-
-
-mobileCard2.addEventListener('click', () => {
-    
-    mobileDetailsContainer2.classList.toggle('active')
-
-    if (document.body.style.overflow == 'hidden') {
-        document.body.style.overflow = 'scroll'
-    } else {
-        document.body.style.overflow = 'hidden'
-    }
-
-})
