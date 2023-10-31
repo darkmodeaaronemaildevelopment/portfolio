@@ -1,3 +1,7 @@
+.hsp-above {
+    margin: 30px 0 15px 0;
+}
+
 .intro {
     margin-bottom: 20px;
 }
@@ -109,6 +113,7 @@
 }
 
 
+
 @media (max-width: 815px) {
 
     .contactMeLow {
@@ -120,7 +125,8 @@
     .gitMain {
         display: none !important;
     }
-    .cards {
+
+    .card {
         display: none;
     }
     .mobileCard {
