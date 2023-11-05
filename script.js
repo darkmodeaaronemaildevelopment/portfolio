@@ -59,10 +59,21 @@ modeWrapper.addEventListener('click', () => {
 })
 
 
-const mobileCard = document.querySelector('.mobileCard')
-const mobileDetailsContainer = document.querySelector('.mobileDetails-container')
+const mobileCard2 = document.querySelector('.mobileCard2')
+const mobileDetailsContainer2 = document.querySelector('.mobileDetails-container2')
 
 
 
 
+mobileCard2.addEventListener('click', () => {
+    
+    mobileDetailsContainer2.classList.toggle('active')
+
+    if (document.body.style.overflow == 'hidden') {
+        document.body.style.overflow = 'scroll'
+    } else {
+        document.body.style.overflow = 'hidden'
+    }
+
+})
 
